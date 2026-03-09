@@ -1,33 +1,18 @@
-# Byte-compiled / optimized / DLL files
+# Byte-compiled / cached files
 __pycache__/
 *.py[cod]
 *$py.class
 
 # Virtual environments
 venv/
-env/
 .venv/
-ENV/
+env/
 
-# IDE and editors
+# IDE
 .idea/
 .vscode/
-*.swp
-*.swo
 .DS_Store
 
-# Logs and databases
+# Logs and temp
 *.log
-*.sqlite3
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# Python packages
-build/
-dist/
-*.egg-info/
-
-# Custom
-__pycache__/
-*.pyc
+.cache/
