@@ -1,7 +1,8 @@
 # Byte-compiled / cached files
 __pycache__/
-*.py[cod]
-*$py.class
+*.pyc
+*.pyo
+*.pyd
 
 # Virtual environments
 venv/
@@ -11,8 +12,6 @@ env/
 # IDE
 .idea/
 .vscode/
-.DS_Store
 
-# Logs and temp
-*.log
-.cache/
+# OS
+.DS_Store
